@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int d, e, f, g;
 	int h = 0;
 
-	for (h = 0; h <= 98; h++)
+	for (h = 0; h <= 91; h++)
 	{
 		c = a + b;
 		a = b;
@@ -22,7 +22,7 @@ int main(void)
 	a = a / 1000;
 	e = b % 1000;
 	b = b / 1000;
-	while (h <= 98)
+	while (h <= 91)
 	{
 		g = (d + e) / 1000;
 		f = (d + e) - g * 1000;
@@ -35,7 +35,7 @@ int main(void)
 			printf("%lu%lu", c, f);
 		else
 			printf("%lu0%lu", c, f);
-		if (h != 98)
+		if (h != 91)
 			printf(" , ");
 		h++;
 		}
