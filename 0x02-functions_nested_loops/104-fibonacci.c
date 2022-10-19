@@ -22,7 +22,7 @@ int main(void)
 	a = a / 1000;
 	e = b % 1000;
 	b = b / 1000;
-	while (h <= 91)
+	while (h <= 98)
 	{
 		g = (d + e) / 1000;
 		f = (d + e) - g * 1000;
@@ -35,7 +35,7 @@ int main(void)
 			printf("%lu%lu", c, f);
 		else
 			printf("%lu0%lu", c, f);
-		if (h != 91)
+		if (h != 98)
 			printf(" , ");
 		h++;
 		}
