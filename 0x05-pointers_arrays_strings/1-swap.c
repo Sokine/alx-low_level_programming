@@ -4,17 +4,13 @@
  * swap_int - swap values
  * @a : pointer value
  * @b : pointer value
- * Return: Always 0
+ * Return: Always 0.
  */
-
 void swap_int(int *a, int *b)
-
 {
-	int prt;
+	int tmp;
 
-	prt = *a;
+	tmp = *a;
 	*a = *b;
-	*b = prt;
-
+	*b = tmp;
 }
-	
